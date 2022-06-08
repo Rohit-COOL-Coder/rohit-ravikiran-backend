@@ -16,7 +16,7 @@ routes.post('/add', async(req,res)=>{
         },  
         auth: {
                 user: 'rohitsah892@outlook.com',
-                pass: "Loveabhay@123",
+                pass: process.env.PASS,
              }
         });
 
